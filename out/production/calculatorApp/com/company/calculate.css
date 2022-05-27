@@ -1,0 +1,52 @@
+
+.label {
+ -fx-font-size:20pt;
+ -fx-background-color:white;
+ }
+
+.buttonPad {
+  -fx-margin: 15px;
+  -fx-padding: 15px 30px;
+  -fx-text-align: center;
+  -fx-text-transform: uppercase;
+  -fx-transition: 0.5s;
+  -fx-background-size: 200% auto;
+  -fx-color: white;
+  -fx-border-radius: 10px;
+  -fx-border-color:#f09819;
+  -fx-display: block;
+  -fx-border: 0px;
+  -fx-font-weight: 700;
+  -fx-font-size:20pt;
+  -fx-cursor: pointer;
+  -fx-user-select: none;
+  -fx-webkit-user-select: none;
+  -fx-touch-action: manipulation;
+ -fx-opacity: .8;
+  }
+
+.buttonPad:hover {
+  -fx-background-color:#541a0f;
+  
+  -fx-background-position: right center;
+  -fx-color: #541a0f;
+  -fx-text-decoration: none;
+}
+
+.buttonPad:active {
+    -fx-background-color:#ff7426;
+  
+  -fx-background-position: right center;
+  -fx-color: #ff7426;
+  -fx-text-decoration: none;
+}
+
+.Bord {
+-fx-background-image:url("ars.jpg");
+}
+
+.TextField {
+ -fx-opacity: .8;
+}
+
+
